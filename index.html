@@ -14,42 +14,74 @@
     </header>
     <div id="main-container" class="container">
         <section  class="main-section">
-            <h1 class="rules">The Rules</h1>
-            <p class="rules">There are 5 questions, you have 50 seconds to answer all 5 questions. </p>
-            <h2>
-                <button type="button" id="start-button">Start</button>
-            </h2>
-            
-            <div id="show-number"></div>
-            <!--Question 1-->
-            <P class="question">1. What kind of bear is best?</P>
-            <ul class="answers">
-            <input type="radio" name="q1" value="a" id="q1a"><label for="q1a">Black Bear</label><br/>
-            <input type="radio" name="q1" value="b" id="q1b"><label for="q1b">Battle Star Galatica</label><br/>
-            <input type="radio" name="q1" value="c" id="q1c"><label for="q1c">Beats</label><br/>
-            <input tpye="radio" name="q1" value="d" id="q1d"><lable for="q1d">Bears...Beats...BATTLE STAR GALATICA</lable><br/>
-            </ul>
-            <!--Question 2-->
-            <p class="question">2. What is micjeal scott's signature line?</p>
-            <ul class="answers">
-            <input tpye="radio" name="q2" value="a" id="q2a"><label for="q2a">I declare BANKRUPCY!!</label><br/>
-            <input type="radio" name="q2" value="b" id="q2b"><label for="q2b">I am beyonce always</label><br/>
-            <input tpye="radio" name="q2" value="c" id="q2c"><label for="q2c">i'm not </label><br/>
-            <input type="radio" name="q3" value="d" id="q2d"><label for="q3d"></label><br/>
-            </ul>
-            <!--Question 3-->
-            <p class="question">3. WHat is micheals prison character name?</p>
-            <ul class="answers">
-            <input type="radio" name="q3" value="a" id="q3a"><label for="q3a"></label><br/>
-            <input type="radio" name="q3" value="b" id="q3b"><label for="q3b"></label><br/>
-            <input tpye="radio" name="q4" value="c" id="q3c"><label for="q3c"></label><br/>
-            <input type="radio" name="q3" value="d" id="q3d"><label for="q4d"></label><br/>
-            </ul> 
-            <!--Question 4-->
-            <p class
-
-
-        </section>
-    </div>
+			<h1 class="rules">The Rules</h1>
+			<p class="rules">There are 5 questions, you have 50 seconds to answer all 5 questions. <strong>GOOD LUCK!</strong></p>
+			<h2>
+				<button type="button" id="start-button">Start</button>
+			</h2>
+			<!-- timer will be displayed in div#show-number-->
+			<div id="show-number"></div>
+			<!-- question 1 -->
+			<p class="question">1. What kind of bear is best?</p>
+			<ul class="answers">
+			<input type="radio" name="q1" value="a" id="q1a"><label for="q1a">Black Bear</label><br/>
+			<input type="radio" name="q1" value="b" id="q1b"><label for="q1b">Battle Star Galatica</label><br/>
+			<input type="radio" name="q1" value="c" id="q1c"><label for="q1c">Beats</label><br/>
+			<input type="radio" name="q1" value="d" id="q1d"><label for="q1d">Bears... Beats.... BATTLE STAR GALATICA</label><br/>
+			</ul>
+			<!-- question 2 -->
+			<p class="question">2. What is Michael scott's Signature Line?</p>
+			<ul class="answers">
+			<input type="radio" name="q2" value="a" id="q2a"><label for="q2a">I Declare BANKRUPCY!!</label><br/>
+			<input type="radio" name="q2" value="b" id="q2b"><label for="q2b">I am beyoncé always</label><br/>
+			<input type="radio" name="q2" value="c" id="q2c"><label for="q2c">I'm not superstitious... but im a little stitous</label><br/>
+			<input type="radio" name="q2" value="d" id="q2d"><label for="q2d">Thats What She Said!!</label><br/>
+			</ul>
+			<!-- question 3 -->
+			<p class="question">3. what is Micheals prison charcter name?</p>
+			<ul class="answers">
+			<input type="radio" name="q3" value="a" id="q3a"><label for="q3a">Big Tuna</label><br/>
+			<input type="radio" name="q3" value="b" id="q3b"><label for="q3b">Prison Mike</label><br/>
+			<input type="radio" name="q3" value="c" id="q3c"><label for="q3c">Bob Vance from Vance Refrigiration</label><br/>
+			<input type="radio" name="q3" value="d" id="q3d"><label for="q3d">Pam-lama-ding-dong</label><br/>
+			</ul>
+			<!-- question 4 -->
+			<p class="question">4. Where did Andy Bernard attend college ?</p>
+			<ul class="answers">
+			<input type="radio" name="q4" value="a" id="q4a"><label for="q4a">Dartmouth</label><br/>
+			<input type="radio" name="q4" value="b" id="q4b"><label for="q4b">Rice</label><br/>
+			<input type="radio" name="q4" value="c" id="q4c"><label for="q4c">Cornell</label><br/>
+			<input type="radio" name="q4" value="d" id="q4d"><label for="q4d">Texas Tech</label><br/>
+			</ul>
+			<!-- question 5 -->
+			<p class="question">4. In "Diversity Day" what ethnicity did Kevin have on his head?</p>
+			<ul class="answers">
+			<input type="radio" name="q5" value="a" id="q5a"><label for="q5a">German</label><br/>
+			<input type="radio" name="q5" value="b" id="q5b"><label for="q5b">Jamaican</label><br/>
+			<input type="radio" name="q5" value="c" id="q5c"><label for="q5c">Italian</label><br/>
+			<input type="radio" name="q5" value="d" id="q5d"><label for="q5d">Asian</label><br/>
+			</ul>
+			<!-- Hidden Buttons and Elements -->
+			<!-- Submit Button -->
+			<button type="button" id="submit">Submit Final Answers</button>
+			<!-- Results -->
+			<div id="results">
+			Show me the answers!
+				<!-- <div id="category1">
+				<p><strong>Question 1:</strong> The correct answer is the <strong>Answer 1</strong>.</p>
+				</div> -->
+			</div>
+			<button type="button" id="restart">Play Again</button>
+		</section>
+	</div>
+	<footer id="footer" class="site-footer">
+		<div class="container">
+			&copy; Copyright 2018 Jesus Alpizar
+		</div>
+	</footer>
+	<!-- JavaScript File & jQuery Lib -->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+	<script type="text/javascript" src="assets/javascript/app.js"></script>
+	<script type="text/javascript" src="../trivia-game/assets/javascript/question.js"></script>
 </body>
 </html>
